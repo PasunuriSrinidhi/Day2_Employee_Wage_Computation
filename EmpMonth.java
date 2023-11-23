@@ -19,7 +19,7 @@ default:
 empHrs=0;
 
 }
-empWage=empHrs=EMP_RATE;
+empWage=empHrs*EMP_RATE;
 totalWage+=empWage;
 System.out.println("Emp Wage: "+empWage);
 }
